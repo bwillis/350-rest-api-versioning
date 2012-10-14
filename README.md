@@ -12,3 +12,11 @@ rake db:migrate
 cp -R app/controllers/api/v1 app/controllers/api/v2
 curl -H 'Accept: application/vnd.example.v1' http://localhost:3000/api/products
 ```
+
+# Version Cake Implementation
+
+See https://github.com/bwillis/versioncake for more details on the gem.
+
+```
+curl -H 'Accept: application/json; api_version=1' http://localhost:3000/products.json
+```

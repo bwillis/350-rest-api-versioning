@@ -1,0 +1,1 @@
+json.(@product, :category_id, :created_at, :id, :name, :price, :updated_at, :released_on, :released_at)
